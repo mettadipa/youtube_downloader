@@ -39,5 +39,8 @@ A simple Streamlit app to download YouTube videos and convert them to MP3.
 - Choose to download the video or extract the audio as MP3.
 - The downloaded files will be saved in the `downloads` directory.
 
+## Legal Considerations
+Downloading videos and audio from YouTube may violate YouTube's terms of service and copyright laws if done without permission. This tool is intended for educational purposes and personal use only. Please ensure that you have the right to download and use the content. Respect the rights of content creators and consider purchasing or streaming from legitimate sources.
+
 ## License
 This project is licensed under the MIT License.
