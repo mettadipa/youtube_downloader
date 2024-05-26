@@ -4,6 +4,7 @@ import logging
 from moviepy.editor import AudioFileClip
 import tempfile
 import os
+import shutil
 from utils import sanitize_filename, download_stream, get_video_info, convert_to_mp3
 
 # Set up logging
@@ -41,7 +42,7 @@ def main():
                         success, result = download_stream(stream, tmp.name)
                         if success:
                             nice_video_name = sanitized_title + ".mp4"
-                            os.rename(tmp.name, nice_video_name)
+                            shutil.move(tmp.name, nice_video_name)
                             result = nice_video_name
                         else:
                             os.remove(tmp.name)
