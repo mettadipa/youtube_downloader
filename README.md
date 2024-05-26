@@ -7,7 +7,7 @@ A simple Streamlit app to download YouTube videos or audio (MP3) using `pytube` 
 - Download YouTube audio in MP3 format.
 
 ## Prerequisites
-- Python 3.7 or higher
+- Python 3.10.9 or higher
 
 ## Installation
 
