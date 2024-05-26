@@ -1,5 +1,13 @@
 __pycache__/
 *.pyc
-.env
-env
-downloads/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+*.swp
+.DS_Store
+*.mp4
+*.mp3
